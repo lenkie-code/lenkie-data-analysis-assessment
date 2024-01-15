@@ -1,6 +1,4 @@
-# lenkie-data-analysis-assessment
-Lenkie SQL Assessment
-
+# Lenkie SQL Assessment
 
 Lenkie allows customers to make payments to their suppliers through our dashboard. Customers have multiple payment options, for this assessment, analyse the dataset provided to you that contains all payments processed using our Credit Facility product. 
 
