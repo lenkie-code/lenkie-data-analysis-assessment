@@ -21,7 +21,7 @@ The dataset is an SQL view that has the following columns:
 - Bill Currency: The currency of the bill (One of GBP, USD, EUR)
 
 #### Loan Columns
-- Loan Origination Date: The (https://en.wikipedia.org/wiki/ISO_8601)[ISO8601] date on which the loan was issued to the customer
+- Loan Origination Date: The [ISO8601](https://en.wikipedia.org/wiki/ISO_8601) date on which the loan was issued to the customer
 - Fee: The loan fee
 
 #### Repayment Columns
