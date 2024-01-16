@@ -9,7 +9,7 @@ A Credit Facility is a line of credit that is made available to customers. Custo
 
 ### Dataset
 
-The dataset is an SQL view that has the following columns:
+The dataset is an SQL view called `[dbo].[RepaymentRecord]` that has the following columns:
 
 #### Customer Columns
 - Customer Id: A unique identifier of the customer which made a payment
@@ -22,11 +22,11 @@ The dataset is an SQL view that has the following columns:
 
 #### Loan Columns
 - Loan Origination Date: The [ISO8601](https://en.wikipedia.org/wiki/ISO_8601) date on which the loan was issued to the customer
-- Fee: The loan fee
+- Fee Percentage: The fee percentage on the loan
 
 #### Repayment Columns
 - Repayment Id: A unique identifier of a repayment that is either paid | pending | overdue
-- Repayment Amount: The repayment amount, includes the loan fee
+- Repayment Amount (GBP) (Principal): The repayment amount, includes the loan fee
 - Principal Repaid: The repayment amount, exclusive of the fee
 - Due Date: The date the repayment was / is due
 - Payment Date: the date the repayment was made
@@ -50,6 +50,9 @@ Given this data set, write SQL queries that answer the following questions:
 6. Find the number of repayments due each month
 7. Which customer has the highest total repayment amount
 8. Generate a monthly report that shows the total number of loans, total loan amount and average loan amount per month
+
+
+Save each SQL script as a seperate file for each question. 
 
 Bonus
 --
