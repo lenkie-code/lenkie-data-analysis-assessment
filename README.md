@@ -9,7 +9,7 @@ A Credit Facility is a line of credit that is made available to customers. Custo
 
 ### Dataset
 
-The dataset is an SQL view called `[dbo].[RepaymentRecord]` that has the following columns:
+The dataset is an SQL view called `[dbo].[CreditFacilityLoansAndRepayments]` that has the following columns:
 
 #### Customer Columns
 - Customer Id: A unique identifier of the customer which made a payment
